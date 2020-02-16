@@ -315,6 +315,8 @@ main {
 
 .about {
   margin-top: 4rem;
+  padding-bottom: 4rem;
+  height: 100%;
 }
 
 .about__copyright {
@@ -325,5 +327,60 @@ main {
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.about__paragraph {
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  color: grey;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+.about__paragraph--second {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.about__item {
+  padding-bottom: 1rem;
+  color: grey;
+}
+
+.about__item:before {
+  content: "\f1b0";
+  font-family: "icomoon";
+  color: #a2c0be;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.about__video {
+  position: relative;
+}
+
+.about__img-play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.about__img-play-icon:after {
+  content: "\f04b";
+  font-family: "icomoon";
+  color: #000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=main.css.map */

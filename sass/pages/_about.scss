@@ -1,5 +1,7 @@
 .about{
     margin-top: 4rem;
+    padding-bottom: 4rem;
+    height: 100%;
 
     &__copyright{
         margin-top: 1rem;
@@ -9,6 +11,60 @@
         font-size: 2rem;
         font-weight: 700;
         text-transform: uppercase;
+    }
+
+    &__paragraph{
+        padding: 1rem 0;
+        font-size: 1.25rem;
+        color: grey;
+        line-height: 1.7;
+        font-weight: 300;
+
+        &--second{
+            font-weight: 400;
+            font-size: 1rem;
+            color: #6c757d;
+        }
+    }
+
+    &__item{
+        padding-bottom: 1rem;
+        color: grey;
+
+        &:before{
+            content:"\f1b0";
+            font-family: "icomoon";
+            color: #a2c0be;
+            margin-right: 15px;
+            font-size: 20px;
+        }
+    }
+
+    &__video{
+        position: relative;
+    }
+
+    &__img-play-icon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 3.5rem;
+        width: 3.5rem;
+        background-color: #fff;
+        border-radius: 50%;
+        
+
+        &:after{
+            content:"\f04b";
+            font-family: "icomoon";
+            color: #000;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
     }
 
 }

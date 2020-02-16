@@ -1,0 +1,132 @@
+.header{
+    background-color: #fff;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .5rem 0;
+    }
+
+    &__logo{
+        color: #000;
+        font-size: 2rem;
+        &--span{
+            color: #a2c0be;
+        }
+    }
+
+    &__toggler{
+        display: none;
+    }
+
+    &__nav-btn{
+        z-index: 2000;
+        cursor: pointer;
+        height: 13.2px;
+    }
+
+    &__menu-bg{
+        height: 0;
+        width: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        z-index: 1000;
+        //transition: transform 10s;
+    }
+
+    &__menu{
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1500;
+
+
+        right: -100%; // Make it dissapear
+        opacity: 0;
+        transition: all 1s;
+    }
+
+    &__list{
+        height: 100vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        flex-direction: column;
+        list-style: none;
+        margin: 6rem 2rem 0 0;
+        
+    }
+
+    &__item{
+        padding: .5rem;
+    }
+
+    &__link{
+        
+        &:link,
+        &:visited{
+            font-size: 2rem;
+            color: #000;
+            font-weight: 700;
+            text-decoration: none;
+            background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #000 50%);
+            background-size: 250%;  
+            transition: all 2s;
+        }
+
+        &:hover,
+        &:active{
+            background-position: 100%;
+            color: #fff;
+            padding: 0 .5rem;
+        }
+        
+    }
+
+
+    // <----NOW U SEE IT..(magic)..NOW U DON'T---->
+    &__toggler:checked ~ &__menu-bg{
+        height: 100vh;
+        width: 60vw;
+        transition: width 1s;
+    }
+
+    &__toggler:checked ~ &__menu{
+        right: 0;
+        opacity: 1;
+    }
+
+    // <---ICON--->
+
+    &__nav-icon{
+        position: relative;
+        margin-top: .2rem;
+
+        &,
+        &:before,
+        &:after{
+            width: 1.4rem;
+            height: 1px;
+            background-color: green;
+            display: inline-block;
+        }
+
+        &:before,
+        &:after{
+            content: "";
+            position: absolute;
+            left: 0;
+        }
+
+        &:before{top: .6rem;} // Always double up on the space
+        &:after{top: .3rem;}
+
+    }
+}

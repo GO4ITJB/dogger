@@ -1,0 +1,42 @@
+/*
+<div class="paws">
+    <span class="paws__icon"></span>
+</div>
+*/
+
+.paws{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+    &--left{
+        text-align: left;
+    }
+    
+    &__icon:before{
+        content:"\f1b0";
+        font-family: "icomoon";
+        color: #a2c0be;
+        font-size: 2rem;
+    }
+
+    &:before{
+        content:"\f1b0";
+        font-family: "icomoon";
+        color: #a2c0be;
+        transform: rotate(-45deg);
+        display: inline-block;
+        opacity: .3;
+        margin-right: 10px;
+    }
+
+    &:after{
+        content:"\f1b0";
+        font-family: "icomoon";
+        color: #a2c0be;
+        transform: rotate(45deg);
+        display: inline-block;
+        opacity: .3;
+        margin-left: 10px;
+    }
+}

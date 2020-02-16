@@ -1,0 +1,23 @@
+@import 'abstracts-utilities/variables';
+@import 'abstracts-utilities/functions';
+@import 'abstracts-utilities/mixins';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+@import 'components/buttons';
+@import 'components/slider';
+@import 'components/paws';
+
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/contact';
+@import 'pages/services';
+

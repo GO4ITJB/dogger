@@ -1,0 +1,12 @@
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: 50px;
+    padding: .7rem 2rem;
+    color: #fff;
+    font-size: 1rem;
+
+    &--green{
+        background-color: #a2c0be;
+    }
+}

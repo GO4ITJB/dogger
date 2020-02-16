@@ -1,0 +1,66 @@
+.hero{
+    height: 100vh;
+    overflow: hidden;
+
+
+    &__copyright{
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    &__h1{
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__paragraph{
+        color: #999;
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+
+    &__span{
+        display: block;
+    }
+
+    &__img{
+        max-width: 400px;
+    }
+}
+
+.welcome{
+
+    &__copyright{
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    &__h2{
+        font-size: 1.9rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    &__paragraph{
+        color: grey;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    &__card{
+        margin-top: 4rem;
+    }
+
+    &__card-h4{
+        font-size: 2rem;
+        padding: 1rem 0 .5rem;
+    }
+
+    &__card-paragraph{
+        color: grey;
+        line-height: 1.7;
+    }
+
+}

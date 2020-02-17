@@ -1,0 +1,71 @@
+.pricing{
+    padding: 2rem 0;
+    
+
+    &__copyright{
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    &__h2{
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    &__paragraph{
+        font-size: 1rem;
+        padding: .5rem 0;
+        color: grey;
+    }
+
+    &__card{
+        background-color: #a2c0be;
+        color: #fff;
+        text-align: center;
+        padding: .8rem 0 2rem;
+
+        &--grey{
+            background-color: #343a40;
+        }
+    }
+
+    &__card-h4{
+        font-size: 1.75rem;
+        text-transform: uppercase;
+    }
+
+    &__card-paragraph{
+        padding: 1rem 0;
+        font-size: 3rem;
+    }
+
+    &__card-paragraph-span{
+        font-size: 1rem;
+    }
+
+    &__card-list{
+        text-align: left;
+        margin-left: .8rem;
+        padding-bottom: 1rem;
+    }
+
+    &__card-list-item{
+        font-size: 1rem;
+        padding: .5rem 0;
+
+        
+        &:before{
+            content: "\e5ca";
+            font-family: icomoon;
+            font-size: 1.4rem;
+            margin-right: .5rem;
+            text-decoration: none;
+        }
+
+        &--remove{
+            text-decoration: line-through;
+            color: rgba(255,255,255,.4);
+        }
+    }
+}

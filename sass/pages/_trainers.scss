@@ -1,0 +1,73 @@
+.trainers{
+    padding: 2rem 0;
+    color: #516463;
+    background-color: #a2c0be ;
+
+
+    &__copyright{
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    &__h2{
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #405a58;
+    }
+
+    &__paragraph{
+        padding: .8rem 0 4rem;
+        font-size: 1rem;
+    }
+
+    &__card-copyright{
+        padding: 2rem 0;
+    }
+
+    &__card-h4{
+        color: #405a58;
+        font-size: 1.3rem;
+    }
+
+    &__card-paragraph{
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+
+    &__card-icon-item{
+        display: inline-block;
+        
+        
+    }
+
+    &__card-icon-link{
+        color: #000;
+        font-size: .8rem;
+        display: block;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        padding: 23% 0;    
+        background-color: #fff;
+        border-radius: 50%;
+
+        &--twitter:before{
+            content:  "\f099";
+            font-family: icomoon;
+
+        }
+
+        &--instagram:before{
+            content: "\f16d";
+            font-family: icomoon;
+        }
+
+        &--facebook:before{
+            content: "\f09a";
+            font-family: icomoon;
+        }
+        
+    }
+
+}

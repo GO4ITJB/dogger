@@ -675,4 +675,41 @@ main {
         grid-template-rows: repeat(6, auto);
   }
 }
+
+.blog {
+  padding: 1rem 0 2rem;
+}
+
+.blog__copyright {
+  padding: 1rem 0 3rem;
+  text-align: center;
+}
+
+.blog__h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.blog__paragraph {
+  font-size: 1rem;
+  color: grey;
+  margin-top: .5rem;
+}
+
+.blog__post-h4-link {
+  color: #000;
+  font-size: 1.3rem;
+}
+
+.blog__post-date {
+  padding: .5rem 0;
+  color: #b3b3b3;
+}
+
+.blog__post-link {
+  color: #a2c0be;
+  display: block;
+  margin-top: .5rem;
+}
 /*# sourceMappingURL=main.css.map */

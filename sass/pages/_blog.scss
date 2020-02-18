@@ -1,0 +1,36 @@
+.blog{
+    padding: 1rem 0 2rem;
+
+    &__copyright{
+        padding: 1rem 0 3rem;
+        text-align: center;    
+    }
+
+    &__h2{
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    &__paragraph{
+        font-size: 1rem;
+        color: grey;
+        margin-top: .5rem;
+    }
+
+    &__post-h4-link{
+        color: #000;
+        font-size: 1.3rem;
+    }
+
+    &__post-date{
+        padding: .5rem 0;
+        color: #b3b3b3;
+    }
+
+    &__post-link{
+        color: #a2c0be;
+        display: block;
+        margin-top: .5rem;
+    }
+}

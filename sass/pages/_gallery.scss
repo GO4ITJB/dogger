@@ -1,5 +1,5 @@
 .gallery{
-    padding-top: 2rem 0;
+    padding: 2rem 0;
 
     &__h2{
         font-size: 2rem;
@@ -10,17 +10,29 @@
     }
 
     &__grid{
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(auto, 50%));
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 0;
+        grid-auto-flow: dense;
     }
 
-    &__grid-row{
-        display: inline-flex;
+
+
+}
+
+
+// MAKE THE IMG GALLERY SCALABLE
+@media (min-width: 900px){
+
+    .container--gallery{
+        width: 98% !important;
     }
 
-    img:hover{
-        transform: scale(2x);
-        position: relative;
-        translate: all 2s;
+    .gallery__grid{
+        grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+        grid-template-rows: repeat(6, auto);
     }
+
+    
 }

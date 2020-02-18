@@ -1,0 +1,26 @@
+.gallery{
+    padding-top: 2rem 0;
+
+    &__h2{
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+        padding: 1rem 0 3rem;
+    }
+
+    &__grid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__grid-row{
+        display: inline-flex;
+    }
+
+    img:hover{
+        transform: scale(2x);
+        position: relative;
+        translate: all 2s;
+    }
+}

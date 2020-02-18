@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Vollkorn&display=swap");
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -538,5 +539,137 @@ main {
 .pricing__card-list-item--remove {
   text-decoration: line-through;
   color: rgba(255, 255, 255, 0.4);
+}
+
+.faq {
+  padding: 2rem 0;
+}
+
+.faq__copyright {
+  text-align: center;
+  padding: 1rem 0 3rem;
+}
+
+.faq__h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.faq__paragraph {
+  color: grey;
+  padding-top: .5rem;
+}
+
+.faq__list {
+  padding: 2rem 0;
+}
+
+.faq__list-item {
+  display: inline;
+}
+
+.faq__list-item:before {
+  content: "\f1b0";
+  font-family: icomoon;
+  color: #ccc;
+  border: 1px solid #a2c0be;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.faq__list-item:before:active {
+  color: red;
+}
+
+.faq__list-item-question-box {
+  margin-left: 2.5rem;
+}
+
+.faq__list-item-q {
+  font-size: 1.2rem;
+}
+
+.faq__list-item-answer {
+  font-size: .8rem;
+  margin-top: .5rem;
+}
+
+.testimonial {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.testimonial__box {
+  margin-top: 3rem;
+}
+
+.testimonial__h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.testimonial__paragraph {
+  background-color: #a2c0be;
+  padding: 1.5rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.378);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.378);
+  font-family: 'Vollkorn', serif;
+}
+
+.testimonial__author {
+  margin-top: 2.5rem;
+}
+
+.testimonial__author-img {
+  border: 10px solid #a2c0be;
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+.testimonial__author-name {
+  margin-top: .5rem;
+}
+
+.gallery {
+  padding-top: 2rem 0;
+}
+
+.gallery__h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  padding: 1rem 0 3rem;
+}
+
+.gallery__grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gallery__grid-row {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.gallery img:hover {
+  -webkit-transform: scale(2x);
+          transform: scale(2x);
+  position: relative;
+  translate: all 2s;
 }
 /*# sourceMappingURL=main.css.map */

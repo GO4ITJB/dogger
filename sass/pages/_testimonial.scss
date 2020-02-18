@@ -1,0 +1,40 @@
+.testimonial{
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    text-align: center;
+
+
+
+    &__box{
+        margin-top: 3rem;
+    }
+
+    &__h2{
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-top: 1rem;
+    }
+
+    &__paragraph{
+        background-color: #a2c0be;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.378);
+        font-family: 'Vollkorn', serif;
+    }
+
+    &__author{
+        margin-top: 2.5rem;
+    }
+
+    &__author-img{
+        border: 10px solid #a2c0be;;
+        border-radius: 50%;
+        max-width: 100px;
+    }
+
+    &__author-name{
+        margin-top: .5rem;
+    }
+}

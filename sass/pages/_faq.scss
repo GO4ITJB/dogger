@@ -1,0 +1,60 @@
+.faq{
+    padding: 2rem 0;
+
+    &__copyright{
+        text-align: center;
+        padding: 1rem 0 3rem;  
+    }
+
+    &__h2{
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    &__paragraph{
+        color: grey;
+        padding-top: .5rem;
+    }
+
+    &__list{
+       padding: 2rem 0;
+    }
+
+    &__list-item{
+        display: inline;
+
+        &:before{
+            content: "\f1b0";
+            font-family: icomoon;
+            color: #ccc;
+            border: 1px solid #a2c0be;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            font-size: 18px;
+            text-align: center;
+            padding-top: 4px;
+
+            &:active{
+                color: red;
+            }
+        }
+
+    }
+
+    &__list-item-question-box{
+        margin-left: 2.5rem;
+    }
+
+    &__list-item-q{
+        font-size: 1.2rem;
+    }
+
+    &__list-item-answer{
+        font-size: .8rem;
+        margin-top: .5rem;
+    }
+
+}

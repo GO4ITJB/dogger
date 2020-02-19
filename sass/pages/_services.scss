@@ -1,0 +1,36 @@
+.services{
+    padding: 1rem 0;
+
+
+    &__copyright{
+        text-align: center;
+    }
+
+    &__h2{
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    p{
+        color: grey;
+    }
+
+    &__paragraph{
+        padding: .5rem 0 2rem;
+    }
+
+    &__service-content{
+        padding-bottom: 2rem;
+    }
+
+    &__img{
+        width: 100px;
+        height: 100px;
+    }
+
+    &__service-h4{
+        font-size: 1.2rem;
+        padding: 1rem 0;
+    }
+}

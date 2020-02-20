@@ -213,6 +213,12 @@ main {
   background-color: #6c757d;
 }
 
+.btn--dark {
+  background-color: #343a40;
+  width: 60%;
+  border-radius: 50px !important;
+}
+
 /*
 <div class="paws">
     <span class="paws__icon"></span>
@@ -402,6 +408,74 @@ main {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.contact {
+  padding: 2rem 0;
+}
+
+.contact__form-container {
+  background-color: #a2c0be;
+  padding: 3rem 0;
+}
+
+.contact__form-h2 {
+  color: #405a58;
+  padding: 0 2.5rem 1rem;
+}
+
+.contact__form {
+  padding: 0 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #567876;
+}
+
+.contact__form label {
+  padding: 1rem 0 .5rem;
+}
+
+.contact__form input {
+  border: none;
+  padding: .7rem .2rem;
+  border-radius: 5px;
+}
+
+.contact__form textarea {
+  border: none;
+  padding: .7rem .2rem;
+  border-radius: 5px;
+}
+
+.contact__info {
+  background-color: #6c757d;
+  margin-top: -1rem;
+  padding: 1rem;
+}
+
+.contact__info-content {
+  color: #fff;
+}
+
+.contact__info-h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact__info-list-item {
+  padding: .5rem 0;
+}
+
+.contact__info-list-item-span {
+  color: #a8b1b8;
+  display: block;
 }
 
 .services {

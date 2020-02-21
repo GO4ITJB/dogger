@@ -1,0 +1,58 @@
+.footer{
+    background-color: #333;
+    padding: 2rem 0;
+
+    &__item-h4{
+        color: #fff;
+        padding: 1rem 0;
+    }
+
+    &__item-paragraph{
+        color: #737373;
+    }
+
+    &__item-list-item{
+        padding: .3rem 0;
+    }
+
+    &__item-list-item-link{
+        color: #737373;
+    }
+
+    &__item-social-link{
+        color: #737373;
+        font-family: icomoon;
+        margin-right: 25px;
+        
+        &--fb:before{
+            content: "\f09a";
+        }
+        &--twitter:before{
+            content: "\f099";
+        }
+        &--insta:before{
+            content: "\f16d";
+        }
+        &--linkedin:before{
+            content: "\f0e1";
+        }
+    }
+
+    &__item-form{
+
+        form{
+            display: inline-block;
+            width: 10px;
+        }
+        
+    }
+
+    &__form-email{
+        background-color: transparent;
+        border: 1px solid #6c757d;
+        color: #6c757d;
+        padding: .5rem .2rem;
+        width: 70%;
+        border-radius: 5px;
+    }
+}

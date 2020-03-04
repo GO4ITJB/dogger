@@ -3,7 +3,7 @@
     padding-bottom: 4rem;
     height: 100%;
 
-    &__copyright{
+    &__intro{
         margin-top: 1rem;
     }
 
@@ -69,4 +69,17 @@
         }
     }
 
+}
+
+@media screen and (min-width: 992px){
+    .about{
+        padding-top: 5rem;
+
+        &__content{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            grid-gap: 20px;
+        }
+    }
 }

@@ -2,7 +2,7 @@
     padding: 2rem 0;
     
 
-    &__copyright{
+    &__intro{
         padding: 1rem 0;
         text-align: center;
     }
@@ -66,6 +66,26 @@
         &--remove{
             text-decoration: line-through;
             color: rgba(255,255,255,.4);
+        }
+    }
+}
+
+@media screen and (min-width: 992px){
+    .pricing{
+        height: 95vh;
+        padding: 3rem 0 0;
+
+        &__intro{
+            padding: 2rem 0;
+        }
+
+        &__cards{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        &__card{
+            padding: 5rem 0;
         }
     }
 }

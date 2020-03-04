@@ -1,6 +1,6 @@
 .footer{
     background-color: #333;
-    padding: 2rem 0;
+    padding: 2rem 0 3rem;
 
     &__item-h4{
         color: #fff;
@@ -36,14 +36,10 @@
         &--linkedin:before{
             content: "\f0e1";
         }
-    }
+    } 
 
     &__item-form{
-
-        form{
-            display: inline-block;
-            width: 10px;
-        }
+        display: flex;
         
     }
 
@@ -53,6 +49,16 @@
         color: #6c757d;
         padding: .5rem .2rem;
         width: 70%;
-        border-radius: 5px;
+        border-radius: 5px 0 0 5px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .footer{
+        &__item{
+            &--links{
+                justify-self: center;
+            }
+        }
     }
 }

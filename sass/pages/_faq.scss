@@ -1,7 +1,7 @@
 .faq{
     padding: 2rem 0;
 
-    &__copyright{
+    &__intro{
         text-align: center;
         padding: 1rem 0 3rem;  
     }
@@ -57,4 +57,23 @@
         margin-top: .5rem;
     }
 
+}
+
+@media screen and (min-width: 992px){
+    .faq{
+
+        &__content{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        &__img{
+            order: 1;
+        }
+
+        &__list{
+            padding: unset;
+        }
+    }
 }

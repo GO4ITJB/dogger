@@ -3,9 +3,11 @@
     overflow: hidden;
 
 
-    &__copyright{
+    &__intro{
         margin-top: 2rem;
         text-align: center;
+
+
     }
 
     &__h1{
@@ -30,9 +32,61 @@
     }
 }
 
+@media screen and (min-width: 992px){
+    .container{
+        width: 60%;
+    }
+
+    .hero{
+
+        &__intro{
+            text-align: left;
+            margin-top: -4rem;
+        }
+
+        &__h1{
+            font-size: 4rem;
+        }
+
+        &__content{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+            align-items: center;
+            height: 97vh;
+        }
+
+        &__img-box{
+            align-self: end;
+        }
+
+        &__img{
+            max-width: 500px;
+        }
+    }
+
+    .welcome{
+
+        &__card{
+            display: grid;
+            align-items: center;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        &__card-text{
+            padding: 0 2rem;
+        }
+
+        &__card-img--order{
+            order: 1;
+        }
+    }
+}
+
 .welcome{
 
-    &__copyright{
+    &__intro{
         text-align: center;
         margin-top: 1rem;
     }

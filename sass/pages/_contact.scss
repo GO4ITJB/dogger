@@ -66,3 +66,21 @@
     }
 
 }
+
+@media screen and (min-width: 992px){
+    .contact{
+
+        &__content{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        &__info{
+            margin-top: unset;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}

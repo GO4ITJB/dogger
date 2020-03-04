@@ -4,7 +4,7 @@
     background-color: #a2c0be ;
 
 
-    &__copyright{
+    &__intro{
         text-align: center;
         padding-top: 1rem;
     }
@@ -70,4 +70,16 @@
         
     }
 
+}
+
+@media screen and (min-width: 992px){
+    .trainers{
+        height: 100vh;
+
+        &__cards{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+        }
+    }
 }

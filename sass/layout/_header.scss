@@ -131,3 +131,53 @@
 
     }
 }
+
+@media screen and (min-width: 992px){
+    .header{
+
+        &__container{
+            width: 60%;
+            padding: unset;
+        }
+
+        &__nav-btn{
+            display: none;
+        }
+
+        &__menu-bg{
+            display: none;
+        }
+
+        &__menu{
+            height: unset;
+            width: unset;
+            position: unset;
+            top: unset;
+            z-index: 1500;
+    
+    
+            right: unset; // Make it dissapear
+        }
+
+        &__item{
+            margin-left: 3rem;
+        }
+
+        &__list{
+            height: unset;
+            flex-direction: row;
+            margin: unset;
+        }
+
+        &__link{
+        
+            &:link,
+            &:visited{
+                font-size: 1.2rem;
+                font-weight: 400;
+                transition: all .5s;
+            }
+        }
+    }
+
+}

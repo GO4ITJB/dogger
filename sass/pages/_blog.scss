@@ -1,7 +1,7 @@
 .blog{
     padding: 1rem 0 2rem;
 
-    &__copyright{
+    &__intro{
         padding: 1rem 0 3rem;
         text-align: center;    
     }
@@ -36,5 +36,17 @@
         color: #a2c0be;
         display: block;
         margin-top: .5rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .blog{
+
+        &__posts{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
     }
 }

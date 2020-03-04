@@ -17,6 +17,10 @@
 
     &__item-list-item-link{
         color: #737373;
+
+        &:hover{
+            color: rgb(205, 205, 205);
+        }
     }
 
     &__item-social-link{
@@ -35,6 +39,10 @@
         }
         &--linkedin:before{
             content: "\f0e1";
+        }
+
+        &:hover{
+            color: rgb(205, 205, 205);
         }
     } 
 

@@ -265,6 +265,10 @@ main {
   color: #737373;
 }
 
+.footer__item-list-item-link:hover {
+  color: #cdcdcd;
+}
+
 .footer__item-social-link {
   color: #737373;
   font-family: icomoon;
@@ -285,6 +289,10 @@ main {
 
 .footer__item-social-link--linkedin:before {
   content: "\f0e1";
+}
+
+.footer__item-social-link:hover {
+  color: #cdcdcd;
 }
 
 .footer__item-form {

@@ -336,6 +336,7 @@ main {
   color: #333;
   border-radius: 0 5px 5px 0;
   margin-top: unset;
+  border: none;
 }
 
 /*
@@ -473,6 +474,12 @@ main {
         -ms-flex-order: 1;
             order: 1;
   }
+  .welcome__card-img:hover {
+    -webkit-box-shadow: 10px 10px #a2c0be;
+            box-shadow: 10px 10px #a2c0be;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
 }
 
 .welcome__intro {
@@ -552,7 +559,6 @@ main {
 
 .about__video {
   position: relative;
-  z-index: -1;
 }
 
 .about__img-play-icon {
@@ -817,6 +823,12 @@ main {
         grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
   }
+  .trainers__card-img:hover {
+    -webkit-box-shadow: 10px 10px #000;
+            box-shadow: 10px 10px #000;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
 }
 
 .pricing {
@@ -1057,6 +1069,12 @@ main {
         grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     -ms-grid-rows: (auto)[6];
         grid-template-rows: repeat(6, auto);
+  }
+  .gallery__img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: all .5s;
+    transition: all .5s;
   }
 }
 

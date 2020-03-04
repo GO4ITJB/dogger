@@ -81,5 +81,10 @@
             grid-template-columns: repeat(3, 1fr);
             grid-gap: 30px;
         }
+
+        &__card-img:hover{
+            box-shadow: 10px 10px #000;
+            transition: all .5s;
+        }
     }
 }

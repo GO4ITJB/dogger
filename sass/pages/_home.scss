@@ -81,6 +81,11 @@
         &__card-img--order{
             order: 1;
         }
+
+        &__card-img:hover{
+            box-shadow: 10px 10px #a2c0be;
+            transition: all .5s;
+        }
     }
 }
 

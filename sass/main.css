@@ -222,6 +222,7 @@ main {
     position: unset;
     top: unset;
     z-index: 1500;
+    opacity: unset;
     right: unset;
   }
   .header__item {
